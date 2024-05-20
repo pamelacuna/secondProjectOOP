@@ -125,7 +125,7 @@ public class Main {
 
             if (c.isValidType(accountType)) {
                 c.register(accountName, accountType);
-                System.out.println("Lipy");
+
                 System.out.printf(NEW_ACCOUNT_REGISTERED, accountName);
 
             }
