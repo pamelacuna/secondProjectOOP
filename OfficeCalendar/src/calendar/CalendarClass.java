@@ -11,6 +11,7 @@ public class CalendarClass implements Calendar {
     @Override
     public boolean isValidType(String accountType) throws UnknownAccountTypeException {
         switch (accountType.toLowerCase()) {
+
             case "staff":
             case "manager":
             case "guest":
